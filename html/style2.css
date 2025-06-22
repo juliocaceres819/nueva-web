@@ -1,0 +1,25 @@
+.cuadro-con-texto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Cuadro base */
+.cuadro {
+  width: 400px;
+  height: 400px;
+  background-image: url(/imagenes/articulo5.jpg);
+  border: 2px solid #000;
+ 
+ 
+  background-repeat: no-repeat;      /* 🔸 Evita que se repita */
+  background-size: cover;            /* 🔸 Hace que la imagen cubra el div */
+  background-position: center;       /* 🔸 La centra */
+}
+
+ 
+
+  /* Cuadro con texto arriba */
+.arriba {
+ flex-direction: row-reverse;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuadros con textos en distintas posiciones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Texto arriba -->
+  <div class="cuadro-con-texto arriba">
+    <div class="explicacion">
+      Texto arriba: usamos <strong>flex-direction: column</strong> para que el texto esté sobre el cuadro.
+    </div>
+    <div class="cuadro"></div>
+  </div>
+
+  <!-- Texto a la derecha -->
+  <div class="cuadro-con-texto derecha">
+    <div class="cuadro"></div>
+    <div class="explicacion">
+      Texto a la derecha: usamos <strong>flex-direction: row</strong> y agregamos margen a la izquierda.
+    </div>
+  </div>
+
+  <!-- Texto a la izquierda -->
+  <div class="cuadro-con-texto izquierda">
+    <div class="cuadro"></div>
+    <div class="explicacion">
+      Texto a la izquierda: usamos <strong>flex-direction: row-reverse</strong> y margen a la derecha.
+    </div>
+  </div>
+
+  <!-- Texto abajo -->
+  <div class="cuadro-con-texto abajo">
+    <div class="explicacion">
+      Texto abajo: usamos <strong>flex-direction: column-reverse</strong> para que el texto esté debajo del cuadro.
+    </div>
+    <div class="cuadro"></div>
+  </div>
+
+</body>
+</html>
